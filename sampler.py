@@ -92,7 +92,7 @@ def circle_sample(n: int):
     x, y = np.zeros(n), np.zeros(n)
     for i in range(n):
 
-        if i%100000 == 0: print(f"Sampling square {round(100 * i/n, 2)}%")
+        if i%100000 == 0: print(f"Sampling circle {round(100 * i/n, 2)}%")
         
         a, b = random(), random()
         while a*a + b*b > 1:
